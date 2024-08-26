@@ -1,0 +1,40 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- Identificatori del progetto padre -->
+    <groupId>com.example</groupId>
+    <artifactId>Esercizi_Java</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <!-- Qui inserisci il riferimento al modulo "Basetta" -->
+        <module>Basetta</module>
+        <module>Basetta2</module>
+    </modules>
+
+    <!-- Proprietà comuni o dipendenze condivise possono essere definite qui -->
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <!-- Dependency Management per definire versioni comuni -->
+    <dependencyManagement>
+        <dependencies>
+            <!-- Inserisci eventuali dipendenze comuni qui -->
+        </dependencies>
+    </dependencyManagement>
+
+    <!-- Plugin Management se necessario -->
+    <build>
+        <pluginManagement>
+            <plugins>
+                <!-- Inserisci plugin comuni qui se necessario -->
+            </plugins>
+        </pluginManagement>
+    </build>
+</project>
