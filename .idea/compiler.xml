@@ -6,9 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Basetta" />
+        <module name="Dashboard" />
         <module name="Basetta2" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Basetta" target="21" />
+    </bytecodeTargetLevel>
   </component>
 </project>

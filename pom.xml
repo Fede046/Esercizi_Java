@@ -11,7 +11,7 @@
 
     <modules>
         <!-- Qui inserisci il riferimento al modulo "Basetta" -->
-        <module>Basetta</module>
+        <module>Dashboard</module>
         <module>Basetta2</module>
     </modules>
 

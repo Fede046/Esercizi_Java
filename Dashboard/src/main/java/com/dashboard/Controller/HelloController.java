@@ -1,4 +1,4 @@
-package com.example.basetta;
+package com.dashboard.Controller;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
