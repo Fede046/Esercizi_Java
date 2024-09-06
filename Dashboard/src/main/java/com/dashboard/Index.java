@@ -6,7 +6,8 @@ public class Index {
     public static void main(String[] args) {
         HelloApplication.main(args);
         System.out.println("hjsrj");
+      System.out.println("commento da commento");
+      System.out.println("copatibilità caodmksamdk");
 
-        System.out.println("copatibilità caodmksamdk");
     }
 }
